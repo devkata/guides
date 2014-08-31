@@ -1,0 +1,21 @@
+# Ignore keys
+config/initializers/secret_token.rb
+config/secrets.yml
+
+# Ignore bundler config.
+/.bundle
+/vendor/bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore Paperclip images
+/public/system
+
+# Ignore Mac OS X files
+.DS_Store
